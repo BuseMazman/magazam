@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Basit E-Ticaret Sitesi</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>Mağazam</h1>
+  </header>
+
+  <main>
+    <div class="products">
+      <div class="product">
+        <img src="https://via.placeholder.com/150" alt="Ürün 1"/>
+        <h2>Ürün 1</h2>
+        <p>₺100</p>
+        <button onclick="sepeteEkle('Ürün 1')">Sepete Ekle</button>
+      </div>
+
+      <div class="product">
+        <img src="https://via.placeholder.com/150" alt="Ürün 2"/>
+        <h2>Ürün 2</h2>
+        <p>₺150</p>
+        <button onclick="sepeteEkle('Ürün 2')">Sepete Ekle</button>
+      </div>
+    </div>
+
+    <div id="sepet">
+      <h2>Sepet</h2>
+      <ul id="sepetListesi"></ul>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
