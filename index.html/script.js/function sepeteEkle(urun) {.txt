@@ -1,0 +1,6 @@
+function sepeteEkle(urun) {
+  const sepetListesi = document.getElementById("sepetListesi");
+  const yeniUrun = document.createElement("li");
+  yeniUrun.textContent = urun;
+  sepetListesi.appendChild(yeniUrun);
+}
